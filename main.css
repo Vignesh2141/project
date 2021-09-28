@@ -1,0 +1,80 @@
+body{
+    color:blue; 
+}
+
+nav{
+    border: 2px brown solid;
+    
+    background-image: repeating-linear-gradient(-45deg,black,white);
+    overflow: hidden;
+}
+nav ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ol li{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+nav ol li a{
+    color: white;
+    text-decoration: none;
+}
+nav ol li a:hover{
+    color: red;
+    text-decoration: none;
+}
+.a1{
+    position: relative ;
+    left: 100px;
+}
+
+section h1{
+    text-align: center;
+}
+
+.h1 figure img{
+    border: 2px solid white;
+    height: 200px;
+    width: 500px;
+    box-shadow: 10px 10px 50px black;
+}
+.h1 figure img:hover{
+    border-color: red;
+    height: 225px;
+    width: 525px;
+    transition: 1s ease-in-out;
+
+}
+.h1 figure{
+    float: left;
+    
+    
+}
+article h2{
+    color: red;
+}
+
+.b1{
+    background-color: darkblue;
+    width: 100px;
+    height: 30px;
+}
+.b1 a{
+    text-decoration:none;
+    color:white;
+    border-radius: 5px;
+}
+.b1:hover{
+    background-color: red;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+

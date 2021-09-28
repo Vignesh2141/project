@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>BASIC TAGS</title>
+        <meta charset="UTF-8">
+        <meta name="description"  content=" "> 
+        <meta name="keywords" content="">
+        <meta name="author" content=""> 
+        <meta name="viewport" content="width=device-width,intital-scale=1">
+        <link rel="stylesheet" href="registration.css">
+        
+    </head>
+    <body>
+        <header>
+        <nav>
+        <ol>
+        <li><a href="login.html">Log in</a></li>
+       <li><a href="#cont">Contact </a></li> 
+       <li> <a href="#">Home</a></li>
+    </ol>
+       </nav>
+       </header>
+
+    
+        <div id="block1">
+            <form action="login.html">
+                <table>
+                    <tr><th colspan="2">Register here</th></tr>
+                    <tr><td><label for="fname">First Name</label></td><td><input type="text" id="fname" name="myname" onblur="validate()" ></td></tr>
+                    <tr><td></td><td><span id="error1"></span></td></tr>
+                    <tr><td><label for="lname">Last Name</label></td><td><input type="text" id="lname" name="myname" onblur="validate1()"></td></tr>
+                    <tr><td></td><td><span id="error2"></span></td></tr>
+                    <tr><td><label for="pass">Password</label></td><td><input type="password" id="pass" onblur="validate2()"></td></tr>
+                    <tr><td></td><td><span id="error3"></span></td></tr>
+                    <tr><td><label for="cpass">Confirm Passwaord</label></td><td><input type="password" id="cpass" onblur="validate3()"></td></tr>
+                    <tr><td></td><td><span id="error4"></span></td></tr>
+                    <tr><td><label for="age">Age</label></td><td><input type="number" id="age" onblur="validate5()"></td></tr>
+                    <tr><td></td><td><span id="error6"></span></td></tr>
+                
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td><label for="male">Male</label><input type="radio" id="male" name="gender">
+                        <label for="fenale">female</label><input type="radio" id="female" name="gender"></td>
+                            
+                    </tr>
+                    <tr><td><label for="add">Address</label></td><td><input type="textarea" id="address"></td></tr>             
+                    <tr><td><label for="email">Email</label></td><td><input type="email" id="email" name="email" onblur="validate4()"></td></tr>
+                    <tr><td></td><td><span id="error5"></span></td></tr>                    
+                    <tr><td><label for="date">Date Of Birth</label></td><td><input type="date" id="date" name="date"></td></tr>
+                    
+                    <tr><td><label for="tel">Moblie</label></td><td><input type="tel" id="tel" onblur="validate6()" name="tel"></td></tr>
+                <tr><td></td><td><span id="error7"></span></td></tr>
+    
+                    
+            
+                    
+                    
+                    <tr><td colspan="2" id="nm"><input type="submit" value="Register"><input type="reset"></td></tr>
+                </table>
+            </form>
+
+      </div>
+    <script src="Validation.js"></script>
+    </body>
+    </html>

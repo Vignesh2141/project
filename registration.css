@@ -1,0 +1,67 @@
+html{
+    background-image: linear-gradient(45deg,blue,red);;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    border: 2px brown solid;
+    
+    background-image: repeating-linear-gradient(45deg,black,white);
+    overflow: hidden;
+}
+nav ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ol li{
+    float: right;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    
+}
+nav ol li a{
+    color: black;
+    text-decoration: none;
+}
+nav ol li a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+#block1{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    position: relative;
+    border: 1px solid white;
+    left: 400px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 50px black;
+   
+}
+span{
+    font-size: small;
+    color:red;
+}
+#nm{
+    text-align: center;
+}
+tr{
+    
+    color:black;
+    font-style: italic;
+
+    font-size: 30px;
+}
+input{
+    border-top: black;
+    border-radius: 5px;
+    border-color: black;
+}

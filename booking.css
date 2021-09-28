@@ -1,0 +1,70 @@
+body{
+    background-image: radial-gradient(white,rgb(158, 200, 214));
+}
+nav{
+    border: 2px brown solid;
+    
+    background-image: repeating-linear-gradient(45deg,black,white);
+    overflow: hidden;
+}
+nav ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ol li{
+    float: right;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    
+}
+nav ol li a{
+    color: black;
+    text-decoration: none;
+}
+nav ol li a:hover{
+    color: red;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+table{
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top:150px ;
+    border: 2px ;
+    box-shadow: 10px 10px 50px black;
+}
+
+#sub{
+    text-align: center;
+    
+}
+#sub2{
+    width: 100px;
+    background-color: blue;
+}
+th{
+    color: red;
+    font-size: larger;
+    text-align: left;
+    width: 300px;
+}
+
+.in{
+    height: 50px;
+ width: 250px;
+ border-top: 1px solid black;
+ border-radius: 5px;
+}
+footer{
+    position: relative;
+    top: 200px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}

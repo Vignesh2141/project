@@ -1,0 +1,79 @@
+
+body{
+   background-image: linear-gradient(45deg,blue,red);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+nav{
+    border: 2px brown solid;
+    
+    background-image: repeating-linear-gradient(45deg,black,white);
+    overflow: hidden;
+}
+nav ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ol li{
+    float: right;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    
+}
+nav ol li a{
+    color: black;
+    text-decoration: none;
+}
+nav ol li a:hover{
+    color: red;
+    text-decoration: none;
+}
+span{
+    color: red;
+    font-size: 10px;
+}
+
+#logtab{
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 400px;
+    top: 200px;
+    
+    height: 200px;
+    width: 420px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 50px black;
+    
+    
+}
+#new{
+    text-align: center;
+}
+tr{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: italic;
+    font-size: 20px;
+}
+a{
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+    color:mediumblue;
+    font-style: italic;
+    font-size:15px;
+}
+input{
+    border-top: black;
+    border-radius: 5px;
+    border-color: black;
+
+}
+#pas #username:focus{
+    border: 1px solid red;
+    width: 250px;
+}

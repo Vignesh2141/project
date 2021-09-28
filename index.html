@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+        <meta name="description"  content=" "> 
+        <meta name="keywords" content="">
+        <meta name="author" content=""> 
+        <meta name="viewport" content="width=device-width,intital-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+       
+    
+        
+     <div id="logtab">
+         <form action="main.html">
+         <table>
+             <tr><th colspan="2">Login</th></tr>
+             <tr> <td><label for="urname">Mobile number/Email </label></td><td><input type="text" id="emailid" onblur="validate4()" ></td> </tr>
+             <tr><td></td><td><span id="error5"></span></td></tr>
+             <tr> <td><label for="pass">Password </label></td><td><input type="password" id="pass" onblur="validate2()"></td> </tr>
+             <tr><td></td><td><span id="error3"></span></td></tr>
+             <tr><td colspan="2" id="new"> <input type="submit" value="login"></td></tr>
+            
+         </table>
+        </form>
+        <label>show password</label><input type="checkbox" name="" id="check">
+         <a href="registration.html">click here to register</a>
+     </div>
+     <script src="jquery-3.6.0.js"></script>
+     <script src="Validation.js"></script>
+    </body>
+    </html>
